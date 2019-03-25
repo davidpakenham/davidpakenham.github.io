@@ -1,7 +1,11 @@
 /*
 Custom CSS
 */
-        
+ 
+html, body {
+  overflow-x: hidden;
+}
+
 .image-container {
   width: 100%; /*any size*/
   height: 800px; /*any size*/
@@ -666,6 +670,10 @@ cursor: pointer;
 
 .space100{
     height: 100px;
+}
+    
+html, body {
+  overflow-x: hidden;
 }
 
 
