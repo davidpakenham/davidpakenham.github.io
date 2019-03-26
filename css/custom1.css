@@ -542,6 +542,22 @@ nav-mobile-white{
 
 
 @media(max-width:576px){
+    
+body{
+    font-size: 18px;!important
+    }
+    
+.projectinfo{
+    font-size: px;
+    line-height: 25px;
+    color: rgba(0,0,0,0.3);
+}
+    
+.archive{
+    font-size: 18px;
+    line-height: 25px;
+}
+    
 
 #desktop, #canvas{
   display: none;
