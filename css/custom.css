@@ -2,12 +2,18 @@
 Custom CSS
 */
 
+html, body {
+    overflow: visible;
+}
+
 html {
   background: #fff;
+/*  overflow-x: hidden;*/
 }
 
 body {
   height: 100%;
+/*  overflow-x: hidden;  */
 }
 
 html, body {

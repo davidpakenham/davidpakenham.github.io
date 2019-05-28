@@ -2,9 +2,7 @@
 Custom CSS
 */
  
-html, body {
-  overflow-x: hidden;
-}
+
 
 .image-container {
   width: 100%; /*any size*/
