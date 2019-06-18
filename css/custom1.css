@@ -2,6 +2,9 @@
 Custom CSS
 */
 
+.me{
+    position: absolute;
+}
 
 .front{
     z-index: 100;
@@ -22,13 +25,13 @@ Custom CSS
 
 
 .image-container {
-  width: 100%; /*any size*/
-  height: 800px; /*any size*/
+/*  width: 100%; any size*/
+  height: 105vh; /*any size*/
 }
 
 .object-fit-cover {
-  width: 100%;
-  height: 100%;
+/*  width: 100%;*/
+  height: 105vh;
   object-fit: cover; /*magic*/
 }
 
@@ -108,6 +111,540 @@ p.content {
 
 
 
+
+
+.underline1{
+/*    border-bottom: 1px solid rgba(0,0,0,0.3);*/
+    
+}
+
+
+
+.underline1:hover{
+    border-bottom: 1px solid black;
+    color: black !important;
+    text-decoration: none;
+}
+
+
+
+
+.about{
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.about-grey{
+    color: rgba(0,0,0,0.3);
+}
+
+.active{
+    color: black;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top:15px;
+    z-index: 100;
+    
+}
+
+.david{
+    font-size: 150px;
+    color: rgba(0,0,0);
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 50px;
+    
+
+}
+.right{
+    text-align: right !important;
+}
+    .next{
+    bottom:20px;
+    color: rgba(0,0,0,0.3)!important;
+    cursor: pointer;
+    
+}
+
+.next:hover{
+    border-bottom: 1px solid black;
+    color: black !important;
+    
+    
+}
+
+.next:active{
+    border-bottom: 1px solid black;
+}
+
+.next:focus{
+    border-bottom: 1px solid black;
+}
+
+.previous{
+    bottom:20px;
+    color: rgba(0,0,0,0.3) !important;
+    text-align: right !important;
+    cursor: pointer;
+
+    
+        
+}
+.previous:hover{
+    border-bottom: 1px solid black;
+    color: black !important;
+}
+
+.previous:active{
+    border-bottom: 1px solid black;
+}
+
+.white{
+    background-color: white ;
+}
+
+.image1{
+   margin-top: -15px;
+}
+
+.project-nav{
+  position: fixed;
+  z-index: 100;
+  color: white;
+  mix-blend-mode: difference;
+  top:15px;
+  cursor: pointer;
+}
+
+.project-nav:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.project-nav:active{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.project-nav:focus{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference; 
+}
+
+.home-nav{
+  position: fixed;
+  z-index: 100;
+  color: black;
+    top:15px;
+  
+}
+
+/*
+.imagetest{
+    background-image: url("/img/motyf/m1.png");
+    z-index: 1;
+    background-color: #cccccc;
+    height: 5000px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+*/
+
+.nav-style{
+    position:fixed;
+    width:100%;
+    height:60px;
+    background: transparent;
+    z-index: 1;
+}
+    
+.black{
+    color:black !important; 
+}
+.projects{
+    margin-left: -20px;
+}
+
+h1{
+    font-family: 'neue-haas-unica';
+    font-size: 250px;
+    line-height: 220px;
+}
+.projectinfo{
+    font-size: 35px;
+    line-height: 42px;
+    color: rgba(0,0,0,0.3);
+}
+
+.projectinfoblack{
+    color: black;
+}
+
+.archive{
+    font-size: 35px;
+    line-height: 50px;
+    color: rgba(0,0,0,0.3) !important;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.archive:hover{
+    color:black !important;
+}
+
+.archive:visited{
+    text-decoration: line-through;
+}
+
+.underline-nav{
+}
+
+.text{
+    font-size: 35px;
+    line-height: 42px;
+    color: rgba(0,0,0,0.3);
+    font-family: 'neue-haas-unica';
+    font-style: Normal;
+}
+.accordion {
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: left;
+    outline: none;
+    padding: none;
+    cursor: pointer;
+}
+
+.active, .accordion:hover {
+    outline: none;
+}
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding: 0px 20px;
+    z-index: 10;
+}
+
+.panel-mobile-bottom {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 20px;
+    z-index: 10;
+}
+
+.panel-content{
+    padding-left: none;
+}
+
+.padding-20{
+    padding-top: 20px;
+}
+
+.padding-25{
+    padding-top: 25px;
+}
+
+.active:after {
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.active:focus {
+    outline:0;
+}
+
+.panel-mobile-bottom, .panel:focus {
+    outline:0;
+}
+
+.accordionpanel:focus {
+    outline:0;
+}
+
+.underlined {
+        border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+
+.work{
+    font-size: 130px;
+    line-height: 100px;
+}
+
+
+.space100{
+    height: 100px;
+}
+
+.space1{
+    height: 1px;
+}
+
+.space2{
+    height: 4px;
+}
+
+
+
+.space70{
+    height: 70px;
+}
+
+.space55{
+    height: 55px;
+}
+.space50{
+    height: 50px;
+}
+
+.space40{
+    height: 40px;
+}
+
+.space0{
+    height: 40px;
+}
+.space30{
+    height: 30px;
+}
+
+.space15{
+    height: 15px;
+}
+
+.space10{
+    height: 10px;
+}
+
+.space4{
+    height: 5px;
+}
+
+body{
+    font-family: 'neue-haas-unica';
+    font-style: Normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 42px;
+    background-color: white !important;
+    text-align: inherit;
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.underline{
+    
+}
+
+.underline:hover{
+    text-decoration-line: underline;
+}
+
+.padding-100{
+    padding-top: 100px;
+}
+
+.padding-200{
+    padding-top: 200px;
+}
+
+.padding-00{
+    padding-top: 200px;
+}
+
+.padding-70{
+    padding-top: 70px;
+}
+
+.padding-40{
+    padding-top: 40px;
+}
+
+.padding-4{
+    margin-top: -4px;
+}
+
+
+.padding-15{
+    padding-top: 15px;
+}
+
+.padding-bottom-60{
+    padding-bottom: 60px;
+}
+
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+
+nav-mobile-white{
+    display: none;
+}
+
+.bottom{
+    bottom: 15px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+}
+
+
+#canvas {
+  position: relative;
+  background-color: white;
+}
+.box {
+  position: absolute;
+  display: inline-block;
+}
+.box-image {
+  transition: width 0.5s, height 0.5s;
+}
+.major-text {
+  font-size: 35px;
+    line-height: 42px;
+    color: rgba(0,0,0,0.3);
+    font-family: 'neue-haas-unica';
+    font-style: Normal;
+}
+
+
+#desktop{
+  display: block;
+}
+
+#moble{
+  display: none;
+}
+
+
+
+
+
+
+@media(max-width:2000px){
+
+.me{
+    position: absolute;
+}
+
+.front{
+    z-index: 100;
+}
+
+.footer{
+    position: absolute;
+    bottom: 15px;
+    color: rgba(0,0,0,0.3);
+    
+}
+
+.footerhr{
+    position: absolute;
+    bottom: 30px;
+    
+}
+
+
+.image-container {
+/*  width: 100%; any size*/
+  height: 105vh; /*any size*/
+}
+
+.object-fit-cover {
+/*  width: 100%;*/
+  height: 105vh;
+  object-fit: cover; /*magic*/
+}
+
+.holder {
+	width: 100%;
+} 
+
+
+.main {
+	width: 100%;
+	float: left;
+} 
+
+.info {
+	width: 100%;
+    float: left;
+	position: fixed;
+} 
+
+p.content {
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	padding-bottom: 100px;
+	margin: 0px;
+}
+
+.post {
+	margin-bottom: 10px;
+}
+
+.post1 {
+	margin-bottom: -25px !important;
+}
+
+#date {
+	position:fixed; 
+    top:15px;
+    left:43%;
+    width: 100%
+    position: fixed;
+  z-index: 100;
+  color: white;
+  mix-blend-mode: difference;
+  top:15px;
+  cursor: pointer;
+}
+
+.Desc {
+	width: 200px;
+	float: left;
+	position: fixed;
+	background: grey;
+} 
 
 
 .underline1{
@@ -479,6 +1016,14 @@ a:hover{
     padding-top: 100px;
 }
 
+.padding-200{
+    padding-top: 200px;
+}
+
+.padding-00{
+    padding-top: 200px;
+}
+
 .padding-70{
     padding-top: 70px;
 }
@@ -544,7 +1089,7 @@ nav-mobile-white{
   display: none;
 }
 
-
+}
 
 
 
