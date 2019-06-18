@@ -26,12 +26,12 @@ Custom CSS
 
 .image-container {
 /*  width: 100%; any size*/
-  height: 105vh; /*any size*/
+  height: 108vh; /*any size*/
 }
 
 .object-fit-cover {
 /*  width: 100%;*/
-  height: 105vh;
+  height: 108vh;
   object-fit: cover; /*magic*/
 }
 
@@ -586,12 +586,12 @@ nav-mobile-white{
 
 .image-container {
 /*  width: 100%; any size*/
-  height: 105vh; /*any size*/
+  height: 108vh; /*any size*/
 }
 
 .object-fit-cover {
 /*  width: 100%;*/
-  height: 105vh;
+  height: 108vh;
   object-fit: cover; /*magic*/
 }
 
