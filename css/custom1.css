@@ -2,6 +2,11 @@
 Custom CSS
 */
 
+.noborder{
+    outline:none;
+}
+
+
 .me{
     position: absolute;
 }
