@@ -1,6 +1,76 @@
 /*
 Custom CSS
 */
+/*
+*/
+
+div[class^="col"]{padding-left:7px; padding-right:7px;}
+
+.black1{
+    background-color: rgb(8,8,8); 
+}
+
+.underline1:hover{
+    border-bottom: 1px solid white;
+    color: white !important;
+    text-decoration: none;
+}
+
+.about-grey{
+    color: rgba(120,120,120);
+}
+
+    
+.about-white{
+    color: white;
+    margin-left: 15px;
+}
+
+.about-headline {
+  font-size: 60px;
+    line-height: 70px;
+    color: white;
+    font-family: 'neue-haas-unica';
+    font-style: Normal;
+    margin-left: 15px;
+}
+
+.project-nav1{
+margin-left: 2%;
+  position: fixed;
+  z-index: 100;
+  color: white;
+  mix-blend-mode: difference;
+  top:15px;
+  cursor: pointer;
+}
+    
+.project-nav1:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.project-nav1:active{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+
+.footer1{
+    background-color: black;
+    height: 300px;
+    color: white;
+    
+}
+
+    
+.arrow{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+}
 
 .noborder{
     outline:none;
@@ -95,53 +165,12 @@ p.content {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.underline1{
-/*    border-bottom: 1px solid rgba(0,0,0,0.3);*/
-    
-}
-
-
-
-.underline1:hover{
-    border-bottom: 1px solid black;
-    color: black !important;
-    text-decoration: none;
-}
-
-
-
-
 .about{
     font-size: 35px;
     line-height: 44px;
 }
 
-.about-grey{
-    color: rgba(0,0,0,0.3);
-}
+
 
 .active{
     color: black;
@@ -150,6 +179,16 @@ p.content {
     top:15px;
     z-index: 100;
     
+}
+
+.active-nav{
+  position: fixed;
+  border-bottom: 1px solid white;
+  z-index: 100;
+  color: white;
+  mix-blend-mode: difference;
+  top:15px;
+  cursor: pointer;
 }
 
 .david{
@@ -162,8 +201,9 @@ p.content {
 
 }
 .right{
-    text-align: right !important;
+    text-align:right !important;
 }
+
     .next{
     bottom:20px;
     color: rgba(0,0,0,0.3)!important;
@@ -212,13 +252,17 @@ p.content {
     background-color: black;
 }
 
+.black{
+    background-color: black;
+}
+
 .image1{
    margin-top: -15px;
 }
 
 .project-nav{
   position: fixed;
-  z-index: 100;
+  z-index: 100 !important;
   color: white;
   mix-blend-mode: difference;
   top:15px;
@@ -290,7 +334,7 @@ h1{
 }
 
 .projectinfoblack{
-    color: black;
+    color: rgba(0,0,0,0.8);
 }
 
 .archive{
@@ -417,10 +461,8 @@ h1{
 }
 
 .space2{
-    height: 4px;
+    height: 5px;
 }
-
-
 
 .space70{
     height: 70px;
@@ -569,7 +611,20 @@ nav-mobile-white{
 
 
 
+
+
+
+
 @media(max-width:1800px){
+
+.about-headline {
+  font-size: 40px;
+    line-height: 45px;
+    color: white;
+    font-family: 'neue-haas-unica';
+    font-style: Normal;
+    margin-left: 15px;
+}
 
 .me{
     position: absolute;
@@ -656,16 +711,9 @@ p.content {
 } 
 
 
-.underline1{
-/*    border-bottom: 1px solid rgba(0,0,0,0.3);*/
-    
-}
-
-
-
 .underline1:hover{
-    border-bottom: 1px solid black;
-    color: black !important;
+    border-bottom: 1px solid white;
+    color: white!important;
     text-decoration: none;
 }
 
@@ -678,7 +726,12 @@ p.content {
 }
 
 .about-grey{
-    color: rgba(0,0,0,0.3);
+    color: rgba(120,120,120);
+}
+    
+.about-white{
+    color: white;
+    margin-left: 15px;
 }
 
 .active{
@@ -700,7 +753,8 @@ p.content {
 
 }
 .right{
-    text-align: right !important;
+    text-align: right;
+
 }
     .next{
     bottom:20px;
@@ -758,6 +812,34 @@ p.content {
   top:15px;
   cursor: pointer;
 }
+    
+.project-nav1{
+margin-left: 2%;
+  position: fixed;
+  z-index: 100;
+  color: white;
+  mix-blend-mode: difference;
+  top:15px;
+  cursor: pointer;
+}
+    
+.project-nav1:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.project-nav1:active{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.project-nav1:focus{
+    border-bottom: 1px solid white;
+    color: white;
+    mix-blend-mode: difference; 
+}
 
 .project-nav:hover{
     border-bottom: 1px solid white;
@@ -805,8 +887,8 @@ p.content {
     z-index: 1;
 }
     
-.black{
-    color:black !important; 
+.black1{
+    background-color: rgb(8,8,8); 
 }
 .projects{
     margin-left: -20px;
@@ -824,7 +906,7 @@ h1{
 }
 
 .projectinfoblack{
-    color: black;
+    color: rgba(0,0,0,0.8);
 }
 
 .archive{

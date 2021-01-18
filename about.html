@@ -14,7 +14,6 @@
 <link rel="icon" 
       type="image/png" 
       href="img/favicon.png">
-      
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +24,13 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom1.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/dfc7xpe.css">
+    <style>
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,17 +41,18 @@
   </head>
   <body>
   <div id="desktop">
-    <div class="container-fluid">
+    <div class="container-fluid black1">
 
         <div class="row">
             
             <div class="col-sm-4"><a class="project-nav" href="index.html">David Pakenham</a></div>
             
-        
+            <div class="offset-5 col-sm-1 accordion" onMouseOver="onHover(1)"><div class="project-nav" id='nav-archive'>Archive</div></div>
             
-            <div class="offset-6 col-sm-1 accordion" onMouseOver="onHover(1)"><div class="project-nav" id='nav-archive'>Archive</div></div>
+            <div class="col-1"><a href="iteration.html" class=" project-nav">Playground</a></div>
             
-            <div class="col-sm-1"><a href="index.html" class="active right">About</a></div>
+            <div class="col-1">
+                <a href="about.html" class="active-nav1 project-nav1 ">About</a></div>
             
         </div>
         
@@ -118,22 +125,7 @@
                                 October, 2018
                             </div>
                    </a>
-                    <div class="row">
-                   <div class="col-sm-12">
-                        <hr>
-                   </div>
-                </div>
-                   <a href="cf.html" class="row archive">
-                            <div class="col-4">
-                                Changing Futures
-                            </div>
-                            <div class="col-3">
-                                Web
-                            </div>
-                            <div class="col-5">
-                                January, 2018
-                            </div>
-                   </a>
+                   
                     <div class="row">
                    <div class="col-sm-12">
                         <hr>
@@ -170,76 +162,96 @@
                     <div class="row padding-bottom-60">
                 </div>
                 
-               </div> 
-            </div>
-          </div>
-      
-
-
-          <div class="container-fluid">    
-
-                    <div class="white">
-                        <div class="padding-100 ">
-                    
-                       <div class="row">
-                           <div class="col-5 me">
+               </div>
+            
+                    </div> 
+                        
+<!--
+                        <div class="col-5 me">
                             <img src="img/me.jpg" class=" img-responsive" alt="Me" width="100%">
                         </div>
-                        
-                        <div class="offset-5 col-6">
-                            <div class="">I am a passionate and hardworking multidisciplinary designer who solves complex problems with well crafted visual solutions. By fully immersing myself in projects from research to delivery, I am able to produce meaningful communication across print, digital and environmental design. My work is typographically led and detail oriented, with constant experimentation creating unique and practical outcomes.<br><br>I am constantly challenging myself, learning and looking for new opportunities and projects to get involved in. If you are interested in working together, don’t hesitate to get in touch.
+-->
+           
+            <div class="row padding-100">
+                
+                
+                        <div class="col-9">
+                            <div class="about-headline">I am a passionate multidisciplinary designer who solves complex problems with well crafted visual solutions. By fully immersing myself in projects from research to delivery, I am able to produce meaningful communication across print, motion, digital and environmental design. My work is typographically led and detail oriented, with constant experimentation creating unique and practical outcomes.<br>
                             </div>
                         </div>
                         </div>
-                        </div>
                             
+                       <div class="space100"></div>     
+                       
+                    <div class="row">
+                        <div class="col-5 about-white">     
+                            <br>Contact<br><span class="about-grey">
+                            <span class="arrow">&#8594;</span>hello@davidpakenham.com<br>  
+                           <a target=”_blank” href="https://www.instagram.com/davidpakenham/" class=" underline1"><span class="arrow">→</span>Instagram</a></span><br>
                             
-                       <div class="offset-5 col-3">     
-                            <br>Contact<br><span class="about-grey ">
-                            hello@davidpakenham.com<br>
-                            +(353) 85 106 1329<br>  
-                           <a target=”_blank” href="https://www.instagram.com/davidpakenham/" class="underline1">Instagram</a></span>
-                        </div>   
-                           
-                         <div class="offset-5 col-5">
-                           <br>Education<br><span class="about-grey">Visual Communication Design at <a target=”_blank”  href="https://www.iadt.ie/" class="underline1">Dún Laoghaire Institute of Art, Design &amp; Technology</a></span>
-                        </div>   
-                        
-                        <div class="offset-5 col-5">
-                            <br>Achievements<br><span class="about-grey"><a target=”_blank” height href="https://www.istd.org.uk/" class="underline1">International Society of Typographic Designers</a><br>Merit Award and Membership<br><br>
+                            <br>Education<br><span class="about-grey"><span class="arrow">→</span>Visual Communication Design at <a target=”_blank”  href="https://www.iadt.ie/" class="underline1">Dún Laoghaire Institute of Art, Design &amp; Technology</a></span><br>
                             
-                            <a target=”_blank” height href="http://www.idi-design.ie/content/files/IDI_GRADUATE_AWARDS_COMMENDED.pdf" class="underline1">IDI Graduate Award Winner</a><br>
+                            <br>Work Experience<br><span class="about-grey"><a target=”_blank” height href="https://thetenthman.com/" class="underline1"><span class="arrow">→</span>The Tenth Man, Dublin</a> (2019–Present)<br>
+                             <span class="arrow">→</span>IADT, Dún Laoghaire (2019)<br>
+                             <a target=”_blank” height href="https://www.atomic.ie/" class="underline1"><span class="arrow">→</span>Atomic, Dublin</a> (2018)<br><span class="arrow">→</span>Bray Tourism (2018)
+                             </span>
+                            
+                        </div>      
+                         
+                        <div class="col-5 about-white">
+                            <br>Achievements<br><span class="about-grey">
+                            
+                            <a target=”_blank” height href="https://thedesignkids.org/interviews/david-pakenham/" class="underline1"><span class="arrow">→</span>The Design Kids 2019 Graduate Winner</a><br><br>
+                            
+                            <a target=”_blank” height href="https://www.istd.org.uk/" class="underline1"><span class="arrow">→</span>International Society of Typographic Designers</a><br>Merit Award and Membership<br><br>
+                            
+                            <a target=”_blank” height href="http://www.idi-design.ie/content/files/IDI_GRADUATE_AWARDS_COMMENDED.pdf" class="underline1"><span class="arrow">→</span>IDI Graduate Award Winner</a><br>
                             Use of Typography in Design<br><br>
                             
-                            <a target=”_blank” height href="http://www.idi-design.ie/content/files/IDI_GRADUATE_AWARDS_COMMENDED.pdf" class="underline1">IDI Graduate Award Winner</a><br>
+                            <a target=”_blank” height href="http://www.idi-design.ie/content/files/IDI_GRADUATE_AWARDS_COMMENDED.pdf" class="underline1"><span class="arrow">→</span>IDI Graduate Award Winner</a><br>
                             Visual Merchandising<br><br>
                             
-                            <a target=”_blank” height href="http://www.idi-design.ie/content/files/IDI_GRADUATE_AWARDS_COMMENDED.pdf" class="underline1">IDI Graduate Award Commendation</a><br>
+                            <a target=”_blank” height href="http://www.idi-design.ie/content/files/IDI_GRADUATE_AWARDS_COMMENDED.pdf" class="underline1"><span class="arrow">→</span>IDI Graduate Award Commendation</a><br>
                             Brand Identity Design<br><br>
                             
-                            Exhibited work at the International Festival of Interactive &amp; Motion Typography
+                            <span class="arrow">→</span>Exhibited work at the International Festival of Interactive &amp; Motion Typography
                             
                             </span><br>
                          </div>   
-                            
-                         <div class="offset-5 col-3">
-                            <br>Experience<br><span class="about-grey"><a target=”_blank” height href="https://thetenthman.com/" class="underline1"> The Tenth Man, Dublin</a><br><a target=”_blank” height href="https://www.atomic.ie/" class="underline1"> Atomic, Dublin</a><br>Bray Tourism<br>IADT</span>
-                        </div>    
+          
 
                     </div>
-                    <div class="space100 row"></div>
-            </div>
-             
-              
+                    <div class="space100 row"></div>  
+                </div>
+            </div> 
 
-      </div> 
+<!--
+                    <div class="footer1">
+                        <div class="container-fluid">
+                            <div class="space50 row"></div>
+                            <div class="row">
+                                <div class="col-4">
+                                    This Is My Footer
+                                </div>
+                            
+                                <div class="col-4">
+                                    This Is My Footer
+                                </div>
+                            
+                                <div class="col-4">
+                                    This Is My Footer
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+-->
 
       
   <div id="moble">
       <div class="row">
         <div class="nav-mobie-white"></div> 
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid white">
         <div class="row">
             <div class="col-5">
                 <a href="index.html" class="home-nav">DP</a>
@@ -284,6 +296,24 @@
                         <div class="col-sm-12">
                             <hr>
                         </div>
+                
+                    <a href="iteration.html" class="row archive">
+                        <div class="col-6">
+                             Playground
+                        </div>
+                        <div class="col-6">
+                            Experimentation
+                        </div>
+        
+                        </a>
+                
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <hr>
+                            </div>  
+                        </div>
+                
+                
                    <a href="motyf.html" class="row archive">
                         <div class="col-6">
                              Motyf 2018
@@ -307,18 +337,7 @@
                             </div>
                         
                         </a>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <hr>
-                            </div>
-                        </div>
-                        <a href="cf.html" class="row archive">
-                            <div class="col-6">
-                                Changing Futures
-                            </div>
-                            <div class="col-6">
-                                Web
-                            </div>
+                        
                             
                         </a>
                             <div class="row">
@@ -353,7 +372,7 @@
                     </div>
 
             <div class="white">
-                <div class="padding-100">I am a passionate and hardworking multidisciplinary designer who solves complex problems with well crafted visual solutions. By fully immersing myself in projects from research to delivery, I am able to produce meaningful communication across print, digital and environmental design. My work is typographically led and detail oriented, with constant experimentation creating unique and practical outcomes.<br><br>I am constantly challenging myself, learning and looking for new opportunities and projects to get involved in. If you are interested in working together, don’t hesitate to get in touch.<br><br>Contact<br><span class="aboutinfo">
+                <div class="padding-100">I am a passionate and hardworking multidisciplinary designer who solves complex problems with well crafted visual solutions. By fully immersing myself in projects from research to delivery, I am able to produce meaningful communication across print, motion, digital and environmental design. My work is typographically led and detail oriented, with constant experimentation creating unique and practical outcomes.<br><br>I am constantly challenging myself, learning and looking for new opportunities and projects to get involved in. If you are interested in working together, don’t hesitate to get in touch.<br><br>Contact<br><span class="aboutinfo">
                             hello@davidpakenham.com<br>
                             +(353) 85 106 1329<br>  
                            <a target=”_blank” href="https://www.instagram.com/davidpakenham/" class="underline1">Instagram</a></span><br><br>Education<br><span class="aboutinfo">Visual Communication at Dún Laoghaire Institute of Art, Design &amp; Technology</span>
@@ -389,7 +408,7 @@
             
             </div>
          </div>                     
-      </div>
+      </div>  
         
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -435,8 +454,7 @@ function onClick(index) {
 } 
     
 </script>
-      
-      
+         
     
   </body>
 </html>
