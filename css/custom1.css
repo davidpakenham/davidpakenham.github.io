@@ -1299,7 +1299,7 @@ body{
   z-index: 100;
   color: white;
   mix-blend-mode: difference !important;
-  bottom:15px;
+  bottom:20px;
   font-family: 'neue-haas-unica';
   font-style: Normal;
 }
