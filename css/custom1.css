@@ -1186,12 +1186,19 @@ nav-mobile-white{
 
 
 
-
-
-
-
-
 @media(max-width:576px){
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    
+@font-face {
+  font-family: "Inter";
+}
+    
+.arrow{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
     
 body{
     font-size: 18px;!important
