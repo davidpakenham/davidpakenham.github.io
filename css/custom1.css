@@ -1188,6 +1188,13 @@ nav-mobile-white{
 
 @media(max-width:576px){
  
+    
+    
+.Index-Projects{
+        font-size: 24px;!important
+    }
+    
+    
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
     
 @font-face {
@@ -1205,8 +1212,6 @@ body{
     }
     
 .projectinfo{
-    font-size: 16px;
-    line-height: 22px;
     color: rgba(0,0,0,0.3);
 }
     
