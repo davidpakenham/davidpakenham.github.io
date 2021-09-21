@@ -1338,11 +1338,11 @@ body{
 .mobile-next{
        font-family: 'neue-haas-unica';
         font-style: Normal; 
-        color: black;
+        color: black !important;
 }
     
 .mobile-next-white{
-    background-color: none;
+    color: white;
     z-index: 1000;
 }
 
