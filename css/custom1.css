@@ -751,6 +751,7 @@ p.content {
     
 
 }
+    
 .right{
     text-align: right;
 
@@ -1132,8 +1133,9 @@ a:hover{
 }
 
 .padding-bottom-60{
-    padding-bottom: 60px;
+    padding-bottom: 140px;
 }
+    
 
 .padding-bottom-30{
     padding-bottom: 30px;
@@ -1310,7 +1312,7 @@ body{
   z-index: 100;
   color: white;
   mix-blend-mode: difference !important;
-  bottom:20px;
+  bottom:120px;
   font-family: 'neue-haas-unica';
   font-style: Normal;
   font-size: 24px !important;
