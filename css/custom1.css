@@ -1313,6 +1313,7 @@ body{
   bottom:20px;
   font-family: 'neue-haas-unica';
   font-style: Normal;
+  font-size: 24px !important;
 }
     
 .project-mobile1:hover{
