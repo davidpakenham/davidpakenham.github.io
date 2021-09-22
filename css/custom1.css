@@ -454,7 +454,7 @@ h1{
 
 .space100{
     height: 100px;
-}
+}project-mobile1
 
 .space1{
     height: 1px;
@@ -467,6 +467,11 @@ h1{
 .space70{
     height: 70px;
 }
+
+.space60{
+    height: 60px;
+}
+
 
 .space55{
     height: 55px;
@@ -564,6 +569,10 @@ a:hover{
 
 .padding-bottom-30{
     padding-bottom: 30px;
+}
+
+.padding-bottom-40{
+    padding-bottom: 40px;
 }
 
 nav-mobile-white{
@@ -1063,6 +1072,11 @@ h1{
 .space15{
     height: 15px;
 }
+    
+.space25{
+    height: 25px;
+    width: 100%;
+}
 
 .space10{
     height: 10px;
@@ -1311,7 +1325,7 @@ body{
   z-index: 100;
   color: white;
   mix-blend-mode: difference !important;
-  bottom:20px;
+  bottom:30px;
   font-family: 'neue-haas-unica';
   font-style: Normal;
   font-size: 24px !important;
@@ -1342,8 +1356,9 @@ body{
 }
     
 .mobile-next-white{
+    background-color: white !important;
     color: white;
-    z-index: 1000;
+    z-index: 1001 !important;
 }
 
 .next-previous{
