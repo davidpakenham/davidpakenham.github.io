@@ -6,6 +6,11 @@ Custom CSS
 
 div[class^="col"]{padding-left:7px; padding-right:7px;}
 
+
+.pointer {
+    cursor: pointer !important;
+}
+
 .black1{
     background-color: rgb(8,8,8); 
 }
@@ -204,7 +209,12 @@ p.content {
     text-align:right !important;
 }
 
-    .next{
+.date{
+    color: rgba(0,0,0,0.3)!important;
+    
+}
+
+.next{
     bottom:20px;
     color: rgba(0,0,0,0.3)!important;
     cursor: pointer;
