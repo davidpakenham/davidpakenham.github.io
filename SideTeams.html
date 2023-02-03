@@ -68,7 +68,111 @@
           </div>
 
 
-        <div class="white">
+        <div class="white"> 
+
+            <div class="container-fluid">
+
+
+
+
+                <div class="row">
+      <div id="cursor" class="cursor hide">Click For Sound</div>
+      <video
+        class="video"
+        onclick="toggleMute();"
+        onmouseover="showCursor();"
+        onmouseout="hideCursor();"
+        id="myVideo"
+        width="100%"
+        autoplay
+        playinline
+        loop
+        muted
+      >
+        <source src="img/SideTeams/SideTeams-Launch-Video.mp4" type="video/mp4" />
+      </video>
+      <script>
+        
+        var cursor = document.querySelector(".cursor");
+        document.addEventListener("mousemove", function (e) {
+          var x = e.clientX;
+          var y = e.clientY;
+          cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+        });
+
+        function toggleMute() {
+
+          var video = document.getElementById("myVideo");
+
+          if (video.muted) {
+            video.muted = false;
+            cursor.innerText = "Shhhh!";
+          } else {
+            video.muted = true;
+            cursor.innerText = "Click For Sound";
+          }
+        }
+
+        function hideCursor() {
+            cursor.classList.add('hide');
+        }
+
+        function showCursor() {
+            cursor.classList.remove('hide');
+        }
+      </script>
+      <style>
+        .video {
+          cursor: none;
+        }
+        .cursor {
+        z-index: 100;
+        color: white;
+        mix-blend-mode: difference;
+          width: auto;
+          height: 50px;
+          position: fixed;
+          pointer-events: none;
+          left: 0;
+          top: 0;
+            font-size: 35px;
+        }
+        .hide {
+          visibility: hidden;
+        }
+      </style>
+    </div>
+
+
+
+
+<!--
+                <div class="row">
+
+                    <video id='myVideo' width=100% autoplay playinline loop muted><source src="img/SideTeams/SideTeams-Launch-Video.mp4" type="video/mp4"></video>
+            
+                    <button class="St-Mute" onclick="toggleMute();"></button>
+
+                    <script>
+
+                        function toggleMute() {
+
+                        var video=document.getElementById("myVideo")
+
+                        if(video.muted){
+                            video.muted = false;
+                        } else {
+                            video.muted = true;
+                        }
+
+                        }
+
+                    </script>
+                </div>
+            </div>
+
+<div class="space10 row"></div>
+
                      
             
                    <video class="noborder pointer"  width=100% id="videoPlayer" poster="img/SideTeams/play5.png" playinline loop>
@@ -96,6 +200,7 @@
         }
     });
 </script>
+-->
             
             <div class="space10 row"></div>
             

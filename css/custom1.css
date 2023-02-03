@@ -3,9 +3,22 @@ Custom CSS
 */
 /*
 */
+/*
+.St-Mute{
+    position:absolute;
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    outline:none;
+    border: 0px solid;
+    
+} 
 
-div[class^="col"]{padding-left:7px; padding-right:7px;}
-
+.St-Mute:focus {
+  outline: none;
+}  
+*/
 
 .pointer {
     cursor: pointer !important;
