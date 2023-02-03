@@ -20,6 +20,8 @@ Custom CSS
 }  
 */
 
+div[class^="col"]{padding-left:7px; padding-right:7px;}
+
 .pointer {
     cursor: pointer !important;
 }
