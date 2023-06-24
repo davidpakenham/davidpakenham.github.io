@@ -20,11 +20,16 @@ Custom CSS
 }  
 */
 
+
+
+
 div[class^="col"]{padding-left:7px; padding-right:7px;}
+
 
 .pointer {
     cursor: pointer !important;
 }
+
 
 .black1{
     background-color: rgb(8,8,8); 
@@ -69,12 +74,14 @@ margin-left: 2%;
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav1:active{
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    
 }
 
 
@@ -298,6 +305,7 @@ p.content {
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav:active{
@@ -845,6 +853,7 @@ p.content {
   mix-blend-mode: difference;
   top:15px;
   cursor: pointer;
+    
 }
     
 .project-nav1{
@@ -861,37 +870,44 @@ margin-left: 2%;
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav1:active{
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav1:focus{
     border-bottom: 1px solid white;
     color: white;
-    mix-blend-mode: difference; 
+    mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav:hover{
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav:active{
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference;
+    cursor: pointer;
 }
 
 .project-nav:focus{
     border-bottom: 1px solid white;
     color: white;
     mix-blend-mode: difference; 
+    cursor: pointer;
 }
+
 
 .home-nav{
   position: fixed;
